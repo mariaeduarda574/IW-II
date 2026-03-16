@@ -88,6 +88,20 @@ alert("Login realizado com sucesso!")
 
 //9. Soma de Números Positivos
 
+alert("Soma de números positivos")
+let nump;
+let somap = 0 
+
+while(true){
+    nump = Number(prompt("Digite um número:"));
+    if(nump <0){
+        break
+    }
+    somap = somap + nump;
+}
+alert("A soma dos números positivos é: " +somap)
+
+
 //10. Adivinhação
 let numeroa = Math.floor(Math.random() * 10) + 1  // Math.random() → número aleatório ; * 10 → tamanho do intervalo ;Math.floor → tira as casas decimais ;+1 → começa do 1
 let palpite = prompt("Adivinhe o número de 1 a 10")
@@ -118,10 +132,18 @@ for(let i = 1 ; i <= numfa; i++){ // i <= numfa(Repita enquanto i for menor ou i
 console.log("O valor fatorial é:" + fatorial) 
 
 // 12- Validação de Nota
+alert("validação de nota!!")
+let notav
 
-
-
-
+while(true){
+    notav = Number(prompt("Digite um número entre 0 e 10 "))
+    if(notav > 0 && notav < 10){
+        console.log("Nota valida")
+        break
+    }else{
+        console.log("Nota invalida")
+    }     
+}
 
 // 13- Média de Notas
 alert("Digite suas notas e descobrirá se foi aprovado ou não!!")
@@ -138,3 +160,6 @@ if(media1 >= 7){
 }else{
     console.log("Descupe, mas você foi reprovado")
 }
+
+
+// Caixa eletrônico
