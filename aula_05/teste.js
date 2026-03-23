@@ -1,9 +1,11 @@
-alert("Caixa eletrônico")
-let saque = Number(prompt("Digite o valor que deseja sacar:"))
-let cedu = [100,50,20,10,5,2]
+alert("Números ímpares:")
 
-for(let i = 0 ; i < cedu.length; i++){
-    let quantidade = Math.floor(valor / cedu[i])
+let numeroim = Number(prompt("Digite um número:"))
+
+for(let i = 1; 1 <= numeroim; i++) {
+
+    if(i % 2 != 0){
+        console.log(i)
+    }
 }
-   
 
