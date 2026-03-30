@@ -192,7 +192,18 @@ console.log(n20 + " nota(s) de 20")
 console.log(n10 + " nota(s) de 10")
 console.log(n5 + " nota(s) de 5")
 console.log(n2 + " nota(s) de 2")
-console.log(n1 + " nota(s) de 1")
+console.log(n1 + " moeda(s) de 1")
 
 
 //15. Números Ímpares
+alert("Números ímpares:")
+
+let numeroim = Number(prompt("Digite um número:"))
+
+for(let i = 1; 1 <= numeroim; i++) {
+
+    if(i % 2 != 0){
+        console.log(i)
+    } break
+} 
+
