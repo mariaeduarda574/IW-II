@@ -1,5 +1,5 @@
 body{
-    background-color: 	#87CEFA;
+    background: linear-gradient(#000000, #383737cc);
 }
 .card{
     background-color: antiquewhite;
@@ -13,4 +13,14 @@ body{
 }
 .botao{
     text-align: center;
+}
+
+.btn-primary{
+    color: antiquewhite;
+    background: linear-gradient(135deg,#07193f93, #00c3ffa1);
+    border: none;
+}
+
+.t{
+    color: aliceblue;
 }
