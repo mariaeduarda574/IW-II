@@ -1,0 +1,44 @@
+{
+  "personagem": 
+  {
+    "nome": "Peter Parker",
+    "franquia": "Homem-Aranha (Spider Man)",
+    "origem": "Nova York",
+    "primeira_aparicao": "Homem Aranha O Filme 2002",
+    "perfil_fisico": {
+      "altura": "1.78m",
+      "porte_fisico": "Musculoso",
+      "marca_registrada": "Traje vermelho e azul com linhas de teia",
+      "item_alternativo": "Lançadores de teia (Desenvolvido pelo Homem Aranha do Tom Holland)"
+    }
+    ,
+    "atributos_sobrehumanos": 
+    {
+
+      "força": "Capaz de levantar 10 toneladas",
+      "durabilidade": "Quase indestrutível",
+      "regeneracao": "Fator de cura (Não regenera membros)",
+      "super_agilidade_e_flixibilidade": "Duas vezes mais elástico que os humanos",
+      "aderencia": "Gruda nas superfícies (Podendo escalar com as mãos e pés)"
+
+    },
+    "combate": {
+      "arma_favorita": "Lançadores de Teias",
+      "estilo": "Briga de Rua, Ginástica e Artes Marciais (Muito Agilidoso)",
+      "fraqueza_notavel": "Sua compaixão"
+    },
+    "psicologia": {
+      "motivacao": "Morte do seu tio Ben",
+      "estado_mental": "Concentrado e isolado",
+      "gatilho": "Princípio da Resaponsabilidade (Se torna impulsivo)"
+    },
+    "variantes": [
+      "Miles Morales",
+      "Gwen-Aranha (Mulher)",
+      "Porco-Aranha",
+      "Homem-Aranha 2099 (Futurista)",
+      "Homem-Aranha Noir (Detetive)",
+      "Homem-Aranha Punk (Rebelde)"
+    ]
+  }
+}
